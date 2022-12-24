@@ -1,5 +1,8 @@
 <script></script>
 <template>
+  <head>
+    <title>G'olib Abdullayev</title>
+  </head>
   <div
     class="pop overflow-hidden gradient select-none relative bg-gradient-to-tr from-[#313138] to-[#010011] font-serif text-white flex items-center justify-center w-full min-h-screen"
   >
