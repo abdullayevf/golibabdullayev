@@ -390,17 +390,17 @@ const _routes = [
   {
     name: "resume",
     path: "/resume",
-    component: () => import('./resume-ClDtqZo7.mjs')
+    component: () => import('./resume-gGoi9Mcc.mjs')
   },
   {
     name: "articles",
     path: "/articles",
-    component: () => import('./articles-c6mBqPab.mjs')
+    component: () => import('./articles-7ePbQHUc.mjs')
   },
   {
     name: "portfolio",
     path: "/portfolio",
-    component: () => import('./portfolio-DhbfeFoQ.mjs')
+    component: () => import('./portfolio-DjINV8HZ.mjs')
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;

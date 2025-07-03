@@ -9,10 +9,6 @@
   </nav>
 </template>
 
-<script setup>
-import { NuxtLink } from '#components'
-</script>
-
 <style scoped>
 .font-mono {
   font-family: 'JetBrains Mono', monospace;
