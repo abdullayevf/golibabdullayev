@@ -39,7 +39,7 @@ ul {
     display: flex;
     gap: 20px;
     position: absolute;
-    bottom: 40px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -54,15 +54,9 @@ a {
     color: #5a5a5a;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-size: 1rem;
     font-family: sans-serif;
 }
 
-@media screen and (min-width: 768px) {
-    a {
-        font-size: 2rem;
-    }
-}
 
 a:hover {
     color: #000;
