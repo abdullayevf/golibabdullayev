@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sculpting Harmony Animation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Notable&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Explanation in JS tab -->
+
+    <!-- The two texts -->
+    <div id="container">
+      <span id="text1">G'olib</span>
+      <span id="text2">Abdullayev</span>
+    </div>
+
+    <!-- The SVG filter used to create the merging effect -->
+    <svg id="filters">
+      <defs>
+        <filter id="threshold">
+          <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+
+	<nav>
+		<ul>
+			<li>
+				<a href="https://github.com/abdullayevf">Github</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/abdulllayevv/">Linkedin</a>
+			</li>
+			<li>
+				<a href="https://instagram.com/golib_abdullayev">Instagram</a>
+			</li>
+			<li>
+				<a href="https://t.me/golib_abdullayev">Telegram</a>
+			</li>
+			
+		</ul>
+	</nav>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
